@@ -1,9 +1,9 @@
 import express from "express";
 import colors from 'colors'
-import router from "./router";
-import db from "./config/db";
+import router from "./router.js";
+import db from "./config/db.js";
 import swaggerUi from 'swagger-ui-express'
-import swaggerSpec from './config/swagger'
+import swaggerSpec from './config/swagger.js'
 
 // Conectar a db
 
